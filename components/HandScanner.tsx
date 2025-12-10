@@ -734,7 +734,7 @@ const toggleHandGuide = () => {
     <div className="relative bg-gray-900 rounded-xl overflow-hidden border border-gray-700 -mx-2 sm:mx-0">
       <video
         ref={videoRef}
-        className="w-full aspect-[3/4] sm:aspect-auto sm:h-80 object-cover"
+        className="w-full min-h-[60vh] sm:min-h-0 sm:h-80 object-cover"
         autoPlay
         playsInline
         muted
